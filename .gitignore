@@ -1,0 +1,9 @@
+*.exe
+dist
+bobbymrdr
+target
+tmp
+vendor
+venv
+site
+build
