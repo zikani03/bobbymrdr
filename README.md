@@ -17,9 +17,22 @@ The expressions for the time are the ones supported by Go's [time.ParseDuration]
 Again, don't use this if you don't know what you are doing or aren't sure. There are no safeguards. I am not responsible for any data loss or corruption. ⚠️
 
 ```sh
-$ bobbymrdr -d "new-project-directory" -r "5m" 
+$ bobbymrdr -d "new-project-directory" -after "5m" 
 ```
 
+## Building
+
+You will need Go 1.18+ to build `bobbymrdr`
+
+```
+$ git clone https://github.com/zikani03/bobbymrdr
+
+$ cd bobbymrdr
+
+$ go build
+
+# Put bobbymrdr in your $PATH
+```
 
 ## Why?
 
